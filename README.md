@@ -159,3 +159,5 @@ Voice is **push-to-talk request/response, not real-time streaming or telephony**
 4. Restart the backend, open **Merchant chat**, enter the service API key in the credentials panel, allow microphone access, then select **Start talking** and tap **Stop recording** to send. The Hindi settlement, Telugu, and dispute chips select a merchant and start recording with a suggested phrase. Recordings stop at 30 seconds. Select **Play / replay reply** to hear generated audio.
 
 The backend accepts documented Sarvam STT audio MIME types, limits uploads to `VOICE_MAX_AUDIO_BYTES` (5,000,000 bytes by default), and uses Sarvam's synchronous STT endpoint for recordings under 30 seconds. TTS requests are subject to Sarvam's documented 2,500-character limit. Voice is **implemented; a real Sarvam round trip has not yet been confirmed**. All merchant tools remain simulated; this feature does not connect to Paytm.
+#   m e r c h a n t - a i - t e a m m a t e  
+ 
